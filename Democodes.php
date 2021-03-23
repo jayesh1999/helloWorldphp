@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>My First Php</title>
+</head>
+<body  text = "green" bgcolor ="orange">
+<marquee> MY FIRST PHP SCRIPT</marquee>
+<center>
+<form action ="index.php" method="post">
+<label> Name</label>
+<input type= "text" name = "name" require="required" placeholder="enter name"><br>
+<label> Email</label>
+<input type= "email" name = "email" require="required" placeholder="enter email"><br>
+<label> Password</label>
+<input type= "password" name = "password" require="required"  placeholder="enter password"><br>
+<input type ="submit" value = "submit">
+</from>
+</center>
+
+</body>
+</html>
