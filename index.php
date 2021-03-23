@@ -8,7 +8,8 @@
 <?php
 if(isset($_POST['submit'])) {
        $name = $_POST['name'];
-       echo $name;
+       $password=$_POST['password'];
+       echo $name ."and password is" .$password;
   }
 ?>
 </body>

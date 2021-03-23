@@ -4,7 +4,6 @@
 </head>
 <body  text = "green" bgcolor ="orange">
 <marquee> MY FIRST PHP SCRIPT</marquee>
-<center>
 <form action ="index.php" method="post">
 <label> Name</label>
 <input type= "text" name = "name" require="required" placeholder="enter name"><br>
@@ -14,7 +13,7 @@
 <input type= "password" name = "password" require="required"  placeholder="enter password"><br>
 <input type ="submit" value = "submit">
 </from>
-</center>
+
 
 </body>
 </html>
